@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  
+    <main>
+      <center><h2>Online Mic Test</h2></center>
+      <center><a href="https://knowledgereader.com/"><button type="button" class="btn">HOME</button></a></center>
+      <div class="d-flex justify-content-center">
+        <div id="buttons">
+            <button id="record">Record</button>
+            <button id="stop">Stop</button>
+        </div>
+        <p>
+            <label for="audioSource">Audio input source: </label>
+            <select id="audioSource"></select>
+        </p>
+        <canvas id="visualizer"></canvas>
+        <audio id="audio" controls="true"></audio>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
